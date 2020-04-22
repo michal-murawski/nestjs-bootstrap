@@ -26,7 +26,7 @@
     }
   },
   "lint-staged": {
-    "*.{ts,js}": [
+    "./**/*/*.ts": [
       "pretty-quick --staged",
       "eslint --fix",
       "git add"

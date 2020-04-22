@@ -10,8 +10,6 @@ async function bootstrap() {
 
   app.useGlobalPipes(new ValidationPipe({ transform: true, whitelist: true }));
 
-
-
   setupSwagger(app);
 
   await app.listen(getEnvConfigs().APP_PORT);
