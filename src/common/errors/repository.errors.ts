@@ -1,0 +1,3 @@
+export const REPOSITORY_ERRORS = {
+  DUPLICATE_KEY_ERROR: 11000,
+};
